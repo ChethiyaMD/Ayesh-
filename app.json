@@ -1,0 +1,23 @@
+{
+  "name": "ASHIYA-MD",
+  "description": "sula has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://sula-md.pages.dev",
+  "keywords": ["bot", "whatsapp bot", "multi device"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": "put session id here"
+        }
+    },
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
