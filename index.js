@@ -852,7 +852,7 @@ conn.sendButtonMessage = async (jid, buttons, quoted, opts = {}) => {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: "120363398661137791@newsletter",
-                  newsletterName: "𝐀𝐒𝐇𝐈𝐘𝐀-𝐌𝐃 🥷🇱🇰,
+                  newsletterName: "𝐀𝐒𝐇𝐈𝐘𝐀-𝐌𝐃 🥷🇱🇰",
                   serverMessageId: 143
                 },
                 externalAdReply: { 
